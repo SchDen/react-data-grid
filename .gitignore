@@ -5,6 +5,8 @@ lib
 test/reports
 test/coverage
 dist
+!packages/react-data-grid/dist
+!packages/react-data-grid-addons/dist
 .npmrc
 npm-debug.log
 **.orig

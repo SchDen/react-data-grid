@@ -7,7 +7,6 @@
     "pretest": "npm run eslint",
     "test": "./node_modules/.bin/karma start ./config/karma.js --singleRun true --release true",
     "dev-test": "./node_modules/.bin/karma start ./config/karma.js --singleRun false --debug true",
-    "postinstall": "lerna bootstrap",
     "build": "webpack --config ./config/webpack.config.prod.js --release true",
     "dev-server": "node webpack-dev-server.js",
     "beforepublish": "lerna run beforepublish",
@@ -37,7 +36,7 @@
     "react-dnd-html5-backend": "^2.1.2",
     "react-select": "^1.0.0-beta14",
     "reselect": "^2.5.1",
-    "ron-react-autocomplete": "^4.0.2",
+    "ron-react-autocomplete": "git://github.com/SchDen/react-autocomplete.git#3413447",
     "react-input-autosize": "1.1.0"
   },
   "devDependencies": {
